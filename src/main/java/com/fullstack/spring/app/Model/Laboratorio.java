@@ -1,9 +1,12 @@
-package com.laboratorio.model;
-import javax.persistence.*;
+package com.fullstack.spring.app.Model;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
-@EntityScan
+@Entity
 @Table(name = "laboratorios")
 public class Laboratorio {
     @Id

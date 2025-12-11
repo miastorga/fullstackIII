@@ -1,10 +1,12 @@
-package com.laboratorio.controller;
-import com.laboratorio.model.Laboratorio;
-import com.laboratorio.service.LaboratorioService;
+package com.fullstack.spring.app.Controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.fullstack.spring.app.Model.Laboratorio;
+import com.fullstack.spring.app.Service.LaboratorioService;
+
 import java.util.List;
 import java.util.Optional;
 

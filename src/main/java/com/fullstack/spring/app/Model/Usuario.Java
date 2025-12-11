@@ -1,6 +1,10 @@
-package com.usuario.model;
+package com.fullstack.spring.app.Model;
 
-import javax.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "usuarios")
@@ -29,36 +33,36 @@ public class Usuario {
         return id;
     }
     
-    public String getNombre() {
-        return nombre;
-    }
-    
-    public String getEmail() {
-        return email;
-    }
-    
-    public String getPassword() {
-        return password;
-    }
-    
-    public String getRol() {
-        return rol;
-    }
-    
     public void setId(Long id) {
         this.id = id;
+    }
+    
+    public String getNombre() {
+        return nombre;
     }
     
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
     
+    public String getEmail() {
+        return email;
+    }
+    
     public void setEmail(String email) {
         this.email = email;
     }
     
+    public String getPassword() {
+        return password;
+    }
+    
     public void setPassword(String password) {
         this.password = password;
+    }
+    
+    public String getRol() {
+        return rol;
     }
     
     public void setRol(String rol) {

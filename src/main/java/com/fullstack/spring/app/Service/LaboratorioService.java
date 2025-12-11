@@ -1,8 +1,10 @@
-package com.laboratorio.service;
-import com.laboratorio.model.Laboratorio;
-import com.laboratorio.repository.LaboratorioRepository;
+package com.fullstack.spring.app.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.fullstack.spring.app.Model.Laboratorio;
+import com.fullstack.spring.app.Repository.LaboratorioRepository;
+
 import java.util.List;
 import java.util.Optional;
 

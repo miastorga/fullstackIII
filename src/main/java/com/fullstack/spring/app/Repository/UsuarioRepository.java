@@ -1,6 +1,9 @@
 package com.fullstack.spring.app.Repository;
 
-public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+// import com.usuario.model.Usuario;
 
-  void deleteById(Long id);
-}
+// @Repository
+// public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+// }

@@ -1,6 +1,6 @@
 package com.usuario.service;
 
-import com.usuario.model.Usuario;
+import com.fullstack.spring.app.Model.Usuario;
 import com.usuario.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
